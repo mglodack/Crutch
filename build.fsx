@@ -10,4 +10,11 @@ datNET.Targets.initialize (fun parameters ->
   }
 )
 
+Target "RestorePackages" (fun _ ->
+  "Crutch.sln"
+  |> RestoreMSSolutionPackages (fun p -> p)
+)
+
+"MSBuild" <== [ "RestorePackages" ]
+
 RunTargetOrDefault "List"

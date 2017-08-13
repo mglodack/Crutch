@@ -4,3 +4,4 @@ cache .paket\cache
 
 nuget fake
 nuget fsharp.faketargets
+nuget nuget.commandline
