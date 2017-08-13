@@ -3,10 +3,10 @@ using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.Diagnostics;
 using System.Collections.Immutable;
 
-namespace Assist
+namespace Crutch
 {
     [DiagnosticAnalyzer(LanguageNames.CSharp)]
-    public class AssistAnalyzer : DiagnosticAnalyzer
+    public class CrutchAnalyzer : DiagnosticAnalyzer
     {
         public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics
         {

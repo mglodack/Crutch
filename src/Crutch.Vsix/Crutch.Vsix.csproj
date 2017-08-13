@@ -34,8 +34,8 @@
     <ProjectGuid>{DD5D7E32-BFAD-4392-B06F-10706D4772F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Assist.Vsix</RootNamespace>
-    <AssemblyName>Assist.Vsix</AssemblyName>
+    <RootNamespace>Crutch.Vsix</RootNamespace>
+    <AssemblyName>Crutch.Vsix</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -73,9 +73,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Assist\Assist.csproj">
+    <ProjectReference Include="..\Crutch\Crutch.csproj">
       <Project>{8FEE2235-903F-46AD-A310-3A4D26BB077B}</Project>
-      <Name>Assist</Name>
+      <Name>Crutch</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

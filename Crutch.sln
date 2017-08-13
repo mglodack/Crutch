@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assist", "src\Assist\Assist.csproj", "{8FEE2235-903F-46AD-A310-3A4D26BB077B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crutch", "src\Crutch\Crutch.csproj", "{8FEE2235-903F-46AD-A310-3A4D26BB077B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assist.Test", "src\Assist.Test\Assist.Test.csproj", "{140FD90E-498C-4A4B-AE07-AFBAB5D35D79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crutch.Test", "src\Crutch.Test\Crutch.Test.csproj", "{140FD90E-498C-4A4B-AE07-AFBAB5D35D79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assist.Vsix", "src\Assist.Vsix\Assist.Vsix.csproj", "{DD5D7E32-BFAD-4392-B06F-10706D4772F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crutch.Vsix", "src\Crutch.Vsix\Crutch.Vsix.csproj", "{DD5D7E32-BFAD-4392-B06F-10706D4772F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

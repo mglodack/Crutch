@@ -4,9 +4,9 @@ using Microsoft.CodeAnalysis.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using TestHelper;
-using Assist;
+using Crutch;
 
-namespace Assist.Test
+namespace Crutch.Test
 {
     [TestClass]
     public class UnitTest : CodeFixVerifier
@@ -41,7 +41,7 @@ namespace Assist.Test
     }";
             var expected = new DiagnosticResult
             {
-                Id = "Assist",
+                Id = "Crutch",
                 Message = String.Format("Type name '{0}' contains lowercase letters", "TypeName"),
                 Severity = DiagnosticSeverity.Warning,
                 Locations =
@@ -71,12 +71,12 @@ namespace Assist.Test
 
         protected override CodeFixProvider GetCSharpCodeFixProvider()
         {
-            return new AssistCodeFixProvider();
+            return new CrutchCodeFixProvider();
         }
 
         protected override DiagnosticAnalyzer GetCSharpDiagnosticAnalyzer()
         {
-            return new AssistAnalyzer();
+            return new CrutchAnalyzer();
         }
     }
 }

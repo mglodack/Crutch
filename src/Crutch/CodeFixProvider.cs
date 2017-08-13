@@ -13,10 +13,10 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Rename;
 using Microsoft.CodeAnalysis.Text;
 
-namespace Assist
+namespace Crutch
 {
-    [ExportCodeFixProvider(LanguageNames.CSharp, Name = nameof(AssistCodeFixProvider)), Shared]
-    public class AssistCodeFixProvider : CodeFixProvider
+    [ExportCodeFixProvider(LanguageNames.CSharp, Name = nameof(CrutchCodeFixProvider)), Shared]
+    public class CrutchCodeFixProvider : CodeFixProvider
     {
         private const string title = "Make uppercase";
 
