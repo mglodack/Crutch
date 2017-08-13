@@ -22,7 +22,7 @@ namespace Assist
 
         public sealed override ImmutableArray<string> FixableDiagnosticIds
         {
-            get { return ImmutableArray.Create(AssistAnalyzer.DiagnosticId); }
+            get { return ImmutableArray.Create(Constants.DiagnosticId); }
         }
 
         public sealed override FixAllProvider GetFixAllProvider()

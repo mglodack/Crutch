@@ -117,16 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AnalyzerDescription" xml:space="preserve">
+  <data name="InvalidPropertyAssignmentDescription" xml:space="preserve">
     <value>Did you mean to assign the property to something else?</value>
     <comment>An optional longer localizable description of the diagnostic.</comment>
   </data>
-  <data name="AnalyzerMessageFormat" xml:space="preserve">
+  <data name="InvalidPropertyAssignmentMessageFormat" xml:space="preserve">
     <value>The property named '{0}' should not be assigned to itself.</value>
     <comment>The format-able message the diagnostic displays.</comment>
   </data>
-  <data name="AnalyzerTitle" xml:space="preserve">
+  <data name="InvalidPropertyAssignmentTitle" xml:space="preserve">
     <value>Invalid property assignment.</value>
     <comment>The title of the diagnostic.</comment>
+  </data>
+  <data name="UnusedParameterDescription" xml:space="preserve">
+    <value>Did you mean to use the unused parameter?</value>
+  </data>
+  <data name="UnusedParameterMessageFormat" xml:space="preserve">
+    <value>The parameter '{0}' is not being used.</value>
+  </data>
+  <data name="UnusedParameterTitle" xml:space="preserve">
+    <value>Unused argument parameter.</value>
   </data>
 </root>
