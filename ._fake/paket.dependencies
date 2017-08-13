@@ -1,0 +1,6 @@
+source https://nuget.org/api/v2
+
+cache .paket\cache
+
+nuget fake
+nuget fsharp.faketargets
